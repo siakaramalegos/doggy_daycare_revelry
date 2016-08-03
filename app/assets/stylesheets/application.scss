@@ -1,6 +1,19 @@
+$brand-primary: #6F499C;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 body {
-  margin-top: 70px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.jumbotron {
+  background-image: image-url("weiner_float.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  color: white;
 }
